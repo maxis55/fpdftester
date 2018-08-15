@@ -65,7 +65,7 @@ foreach ($lines as $line){
     $pdf->Ln();
 }
 $pdf->Ln();
-
+echo 'some changes';
 
 $pdf->setX(130);
 $pdf->Cell(20, 5, 'Summe', 0, 0, 'L');
